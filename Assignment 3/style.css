@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  height: 100%;
+  width: 100%;
+  background-color: wheat;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: linear-gradient(
+      rgba(0, 0, 255, 0.5),
+      rgba(255, 255, 0, 0.5)
+    ),
+    url("https://images.unsplash.com/photo-1607451848220-3d7eb36fcfe9?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDEyNXxhZXU2ckwtajZld3x8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+button {
+  background-color: powderblue;
+  transition: background-color 0.5s;
+  width: 27vh;
+  height: 6vh;
+  margin: 25% 50px 50px 47%;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: url(https://images.unsplash.com/photo-1506784365847-bbad939e9335?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDIyfGFldTZyTC1qNmV3fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  transition: background-color 0.5s;
+  text-shadow: #fc0 1px 0 10px;
+  box-shadow: 5px 5px 5px 5px #f14668;
+  opacity: 0.8;
+  color: #fa1e0e;
+  background-position: 1cm 2cm;
+}
+.hover-me {
+  text-align: center;
+  color: whitesmoke;
+  padding: 6px;
+  font-weight: 600;
+  font-size: 1.5rem;
+  background: url(https://images.unsplash.com/photo-1561494270-744b7f2ff037?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDkzfGFldTZyTC1qNmV3fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+}
